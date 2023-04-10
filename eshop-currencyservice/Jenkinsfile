@@ -33,7 +33,7 @@ spec:
             --git branch=main \\
             --context=git://$USERNAME:$GIT_TOKEN@github.com/changukko/eshop-MSA.git \\
             --context-sub-path=eshop-currencyservice \\
-            --destination=423149956628.dkr.ecr.us-east-1.amazonaws.com:latest
+            --destination=423149956628.dkr.ecr.us-east-1.amazonaws.com/eshop-currencyservice:latest
             '''
           }
         }
